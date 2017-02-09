@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pra4</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email Id</string>
+    <string name="pass">Password</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="agree">I Agree Terms and Conditions</string>
+</resources>

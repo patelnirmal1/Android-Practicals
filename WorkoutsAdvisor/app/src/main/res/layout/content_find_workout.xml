@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_find_workout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nirmal.workoutsadvisor.FindWorkout"
+    tools:showIn="@layout/activity_find_workout">
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="62dp"
+        android:id="@+id/workouttype"
+        android:entries="@array/workout_types"
+
+        />
+
+    <TextView
+        android:text="@string/workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:id="@+id/workout"
+        tools:text="Workouts Here"
+        android:layout_below="@+id/findworkout"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/find_workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:id="@+id/findworkout"
+        android:elevation="0dp"
+        android:layout_below="@+id/workouttype"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickFindWorkout"
+        />
+</RelativeLayout>

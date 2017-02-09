@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pra3</string>
+    <string name="login">Login</string>
+    <string name="email">Email Id</string>
+    <string name="pass">Password</string>
+    <string name="check">Login</string>
+    <string name="details">Result</string>
+</resources>
